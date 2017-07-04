@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 
 /**
  * Created by 闫继龙 on 04/07/2017.
- *
+ * 使用注解的被拦截类
  */
 @Service
 public class DemoAnnotationService {
@@ -15,5 +15,5 @@ public class DemoAnnotationService {
     public void add(){
 
     }
-    
+
 }
