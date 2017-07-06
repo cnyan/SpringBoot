@@ -9,14 +9,15 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  */
 public class Main {
 
-    public static void main(String[] args) {
-
-        ApplicationContext context = new ClassPathXmlApplicationContext("chapter1.aop2/aop-context.xml");
-
-        //从IOC容器中获取bean实例
-        PersonServer bean = (PersonServer) context.getBean("personServiceBean");
-
-
-        bean.save("张三");
-    }
+//    public static void main(String[] args) {
+//
+//        ApplicationContext context = new ClassPathXmlApplicationContext("chapter1.aop2/aop-context.xml");
+//
+//        //从IOC容器中获取bean实例
+//        PersonServer bean = (PersonServer) context.getBean("personServiceBean");
+//
+//
+//        bean.save("张三");
+//    }
+//
 }

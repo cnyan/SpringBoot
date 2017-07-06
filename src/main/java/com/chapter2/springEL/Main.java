@@ -8,14 +8,14 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
  */
 public class Main {
 
-    public static void main(String[] args) {
-
-        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(BookConfig.class);
-
-        BookConfig bookConfig = context.getBean(BookConfig.class);
-
-        bookConfig.outputResource();
-
-        context.close();
-    }
+//    public static void main(String[] args) {
+//
+//        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(BookConfig.class);
+//
+//        BookConfig bookConfig = context.getBean(BookConfig.class);
+//
+//        bookConfig.outputResource();
+//
+//        context.close();
+//    }
 }
