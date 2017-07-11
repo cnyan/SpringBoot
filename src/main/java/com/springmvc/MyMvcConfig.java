@@ -18,7 +18,7 @@ import org.springframework.web.servlet.view.JstlView;
 
 @EnableWebMvc
 @Configuration
-@ComponentScan("com.springmvc")
+@ComponentScan("com.springmvc.web")
 public class MyMvcConfig {
 
     @Bean

@@ -31,6 +31,8 @@
       </element>
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/target/SpringBoot/META-INF/MANIFEST.MF" />
+        <element id="directory" name="springboot" />
+        <element id="dir-copy" path="$USER_HOME$/apache-tomcat-8.5.16/webapps" />
       </element>
       <element id="javaee-facet-resources" facet="SpringBoot/web/Web" />
     </root>
