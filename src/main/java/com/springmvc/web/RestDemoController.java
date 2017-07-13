@@ -23,9 +23,10 @@ public class RestDemoController {
         return "this is rest controller";
     }
 
-    @RequestMapping(value = "/getJson")
-    public DemoObj getJson(DemoObj obj){
+    @RequestMapping(value = "/getJson",produces ={"application/json;charset=UTF-8"})
+    public DemoObj getJson( DemoObj obj){
 
+        System.out.println("request body :" + obj);
         return new DemoObj(obj.getId(),obj.getName());
     }
 }

@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
  */
 
 @Controller
-@RequestMapping(value = "/json",produces = "text/plain;charset=UTF-8")
-public class JsonDemoController {
+@RequestMapping(value = "/anno",produces = "text/plain;charset=UTF-8")
+public class AnnotationDemoController {
 
 
 
@@ -39,7 +39,7 @@ public class JsonDemoController {
         return "url:" + servletRequest.getRequestURL() + " can access,id = " + id;
     }
 
-    //http://localhost:8080/json/requestObj?id=3&name=zhangsan
+    //http://localhost:8080/anno/requestObj?id=3&name=zhangsan
     @RequestMapping(value = "/requestObj")
     @ResponseBody
     public String  passObj(DemoObj obj,HttpServletRequest servletRequest){

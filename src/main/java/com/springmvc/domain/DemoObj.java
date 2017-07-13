@@ -36,4 +36,13 @@ public class DemoObj {
     public void setName(String name) {
         this.name = name;
     }
+
+
+    @Override
+    public String toString() {
+        return "DemoObj{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                '}';
+    }
 }
